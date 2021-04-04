@@ -30,8 +30,9 @@ Segun la cantidad de ```CADENA<N>``` haya en el fichero de entrada sera la canti
 
 <h2>Ejemplo</h2>
 11 15 38
-CeseAlFuego
-CorranACubierto XXcaaamakkCCessseAAllFueeegooDLLKmmNNN
+<br>CeseAlFuego
+<br>CorranACubierto 
+<br>XXcaaamakkCCessseAAllFueeegooDLLKmmNNN
 
 
 <h2>Ejecuccion</h2>
