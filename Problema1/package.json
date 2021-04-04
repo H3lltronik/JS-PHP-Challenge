@@ -1,0 +1,13 @@
+{
+  "name": "Problema1",
+  "version": "1.0.0",
+  "description": "Problema 1\r Descripción\r Existe una técnica de encriptación que ocupa una agencia para poder enviar\r instrucciones a sus agentes. Para enviar una instrucción, la agencia transmite un\r mensaje donde la instrucción aparece entre otros caracteres. Por ejemplo la instrucción\r CeseAlFuego puede ser enviada como XcamakCeseAlFuegoDLKmN. Al recibir el\r mensaje, los agentes (con la ayuda de un libro con todas las instrucciones posibles)\r determinan cual es la instrucción escondida en el mensaje. Máximo existe una\r instrucción escondida por mensaje aunque es posible que no haya ninguna instrucción\r en el mensaje.\r Desafortunadamente el transmisor que ocupan para el envío de los mensajes tiene una\r falla. En lugar de enviar los caracteres una sola vez, esta enviándolos una, dos o hasta\r tres veces. Por ejemplo, el mensaje anterior pudiera ser enviado así:\r XXcaaamakkCCessseAAllFueeegooDLLKmmNNN. Esto hace que sea más difícil para\r los agentes el encontrar una instrucción.\r El programa recibe dos instrucciones y un mensaje, y el resultado debe ser si existe o\r no una instrucción escondida en el mensaje.\r Formato de Entrada\r ● La entrada al programa es un archivo de texto que consiste en cuatro líneas.\r ● La primera línea son tres enteros M1, M2 y N. M1 y M2 es el número de\r caracteres de las dos instrucciones y N es el número de caracteres en el\r mensaje.\r ○ N siempre estará entre 3 y 5000 inclusive\r ○ M1 y M2 siempre estarán entre 2 y 50 inclusive\r ● La segunda línea contiene la primera instrucción.\r ● La tercera línea contiene la segunda instrucción.\r ● La cuarta línea contiene el mensaje.\r ○ Los caracteres posibles en el mensaje son [a-zA-Z0-9]\r Formato de Salida\r ● La salida del programa es un archivo que contiene dos líneas.\r ○ La primera línea contiene un SI si la primera instrucción se encuentra\r escondida en el mensaje o un NO de lo contrario.\r ○ La segunda línea contiene SI si la segunda instrucción se encuentra\r escondida en el mensaje o un NO de lo contrario\r Ejemplo\r Entrada\r 11 15 38\r CeseAlFuego\r CorranACubierto XXcaaamakkCCessseAAllFueeegooDLLKmmNNN\r Salida\r SI\r NO",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
