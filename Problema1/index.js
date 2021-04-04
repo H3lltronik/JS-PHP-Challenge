@@ -1,7 +1,7 @@
 const {readFile, writeFile} = require('fs');
 const utils = require("./utils")
 
-const validCharsRegex = /^[a-zA-Z]+$/g
+const validCharsRegex = /^[a-zA-Z0-9]+$/g
 const lengthMsgRange = utils.makeRange (3, 5000);
 const lengthInstructRange = utils.makeRange (2, 50);
 
