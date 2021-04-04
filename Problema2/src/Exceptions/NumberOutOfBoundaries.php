@@ -2,6 +2,6 @@
 namespace App\Exceptions;
 
 
-class FileNotFoundException extends \Exception {
+class NumberOutOfBoundaries extends \Exception {
 
 }
